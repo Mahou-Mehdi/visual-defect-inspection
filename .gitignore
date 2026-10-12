@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.py[cod]
+data/
+output/
+*.npz
+.DS_Store
+.env
+tests/tmp*/
+tests/.fixture-*/

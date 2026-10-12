@@ -1,0 +1,800 @@
+{
+  "method": "per-location diagonal Gaussian patch statistics",
+  "image_size": [
+    128,
+    128
+  ],
+  "patch_size": 8,
+  "training_normal_images": 64,
+  "calibration_normal_images": 32,
+  "test_normal_images": 64,
+  "test_defective_images": 64,
+  "threshold": 0.8616997316863448,
+  "calibration_percentile": 95.0,
+  "image_auroc": 1.0,
+  "true_positives": 64,
+  "false_positives": 7,
+  "true_negatives": 57,
+  "false_negatives": 0,
+  "defect_recall": 1.0,
+  "normal_false_alarm_rate": 0.109375,
+  "mean_inference_ms": 1.8759343750023305,
+  "p95_inference_ms": 1.864010000019789,
+  "timing_scope": "CPU image read, resize, feature extraction and scoring; excludes model load and overlays",
+  "predictions": [
+    {
+      "image": "test/good/000.png",
+      "defective": false,
+      "score": 0.8292749947844068,
+      "predicted_defective": false
+    },
+    {
+      "image": "test/good/001.png",
+      "defective": false,
+      "score": 0.4485780782424523,
+      "predicted_defective": false
+    },
+    {
+      "image": "test/good/002.png",
+      "defective": false,
+      "score": 1.2085037984102658,
+      "predicted_defective": true
+    },
+    {
+      "image": "test/good/003.png",
+      "defective": false,
+      "score": 0.45898871235255384,
+      "predicted_defective": false
+    },
+    {
+      "image": "test/good/004.png",
+      "defective": false,
+      "score": 0.4671697003638477,
+      "predicted_defective": false
+    },
+    {
+      "image": "test/good/005.png",
+      "defective": false,
+      "score": 0.7864871012281538,
+      "predicted_defective": false
+    },
+    {
+      "image": "test/good/006.png",
+      "defective": false,
+      "score": 0.6145456739918154,
+      "predicted_defective": false
+    },
+    {
+      "image": "test/good/007.png",
+      "defective": false,
+      "score": 0.5700709473620835,
+      "predicted_defective": false
+    },
+    {
+      "image": "test/good/008.png",
+      "defective": false,
+      "score": 0.5113758092668546,
+      "predicted_defective": false
+    },
+    {
+      "image": "test/good/009.png",
+      "defective": false,
+      "score": 0.439172515709384,
+      "predicted_defective": false
+    },
+    {
+      "image": "test/good/010.png",
+      "defective": false,
+      "score": 0.4693527915088408,
+      "predicted_defective": false
+    },
+    {
+      "image": "test/good/011.png",
+      "defective": false,
+      "score": 0.47327152338204703,
+      "predicted_defective": false
+    },
+    {
+      "image": "test/good/012.png",
+      "defective": false,
+      "score": 0.5130588858117331,
+      "predicted_defective": false
+    },
+    {
+      "image": "test/good/013.png",
+      "defective": false,
+      "score": 0.48533870121809486,
+      "predicted_defective": false
+    },
+    {
+      "image": "test/good/014.png",
+      "defective": false,
+      "score": 0.6166400970230372,
+      "predicted_defective": false
+    },
+    {
+      "image": "test/good/015.png",
+      "defective": false,
+      "score": 0.6172021575647506,
+      "predicted_defective": false
+    },
+    {
+      "image": "test/good/016.png",
+      "defective": false,
+      "score": 0.5208247006313069,
+      "predicted_defective": false
+    },
+    {
+      "image": "test/good/017.png",
+      "defective": false,
+      "score": 0.540956657028774,
+      "predicted_defective": false
+    },
+    {
+      "image": "test/good/018.png",
+      "defective": false,
+      "score": 0.579621513101347,
+      "predicted_defective": false
+    },
+    {
+      "image": "test/good/019.png",
+      "defective": false,
+      "score": 0.5576744304685926,
+      "predicted_defective": false
+    },
+    {
+      "image": "test/good/020.png",
+      "defective": false,
+      "score": 0.5532346078113071,
+      "predicted_defective": false
+    },
+    {
+      "image": "test/good/021.png",
+      "defective": false,
+      "score": 1.0582499440156943,
+      "predicted_defective": true
+    },
+    {
+      "image": "test/good/022.png",
+      "defective": false,
+      "score": 0.6256793060811385,
+      "predicted_defective": false
+    },
+    {
+      "image": "test/good/023.png",
+      "defective": false,
+      "score": 0.7504815478427415,
+      "predicted_defective": false
+    },
+    {
+      "image": "test/good/024.png",
+      "defective": false,
+      "score": 0.49705549576892266,
+      "predicted_defective": false
+    },
+    {
+      "image": "test/good/025.png",
+      "defective": false,
+      "score": 0.6510790471805563,
+      "predicted_defective": false
+    },
+    {
+      "image": "test/good/026.png",
+      "defective": false,
+      "score": 0.5254713363842283,
+      "predicted_defective": false
+    },
+    {
+      "image": "test/good/027.png",
+      "defective": false,
+      "score": 0.841080154064912,
+      "predicted_defective": false
+    },
+    {
+      "image": "test/good/028.png",
+      "defective": false,
+      "score": 0.5288116699501066,
+      "predicted_defective": false
+    },
+    {
+      "image": "test/good/029.png",
+      "defective": false,
+      "score": 0.9482444241733374,
+      "predicted_defective": true
+    },
+    {
+      "image": "test/good/030.png",
+      "defective": false,
+      "score": 1.0714014781864676,
+      "predicted_defective": true
+    },
+    {
+      "image": "test/good/031.png",
+      "defective": false,
+      "score": 0.5726316982831051,
+      "predicted_defective": false
+    },
+    {
+      "image": "test/good/032.png",
+      "defective": false,
+      "score": 0.6805096852781325,
+      "predicted_defective": false
+    },
+    {
+      "image": "test/good/033.png",
+      "defective": false,
+      "score": 0.5217601239463017,
+      "predicted_defective": false
+    },
+    {
+      "image": "test/good/034.png",
+      "defective": false,
+      "score": 0.45214893870701933,
+      "predicted_defective": false
+    },
+    {
+      "image": "test/good/035.png",
+      "defective": false,
+      "score": 0.6298078640666709,
+      "predicted_defective": false
+    },
+    {
+      "image": "test/good/036.png",
+      "defective": false,
+      "score": 0.5228104902578292,
+      "predicted_defective": false
+    },
+    {
+      "image": "test/good/037.png",
+      "defective": false,
+      "score": 0.7473011063138655,
+      "predicted_defective": false
+    },
+    {
+      "image": "test/good/038.png",
+      "defective": false,
+      "score": 0.8885869422734678,
+      "predicted_defective": true
+    },
+    {
+      "image": "test/good/039.png",
+      "defective": false,
+      "score": 0.4960674792662193,
+      "predicted_defective": false
+    },
+    {
+      "image": "test/good/040.png",
+      "defective": false,
+      "score": 0.6205104140784425,
+      "predicted_defective": false
+    },
+    {
+      "image": "test/good/041.png",
+      "defective": false,
+      "score": 0.7863856155066287,
+      "predicted_defective": false
+    },
+    {
+      "image": "test/good/042.png",
+      "defective": false,
+      "score": 0.7118246966943582,
+      "predicted_defective": false
+    },
+    {
+      "image": "test/good/043.png",
+      "defective": false,
+      "score": 0.44209659797075407,
+      "predicted_defective": false
+    },
+    {
+      "image": "test/good/044.png",
+      "defective": false,
+      "score": 0.44192436042167216,
+      "predicted_defective": false
+    },
+    {
+      "image": "test/good/045.png",
+      "defective": false,
+      "score": 0.44567932697629786,
+      "predicted_defective": false
+    },
+    {
+      "image": "test/good/046.png",
+      "defective": false,
+      "score": 0.45326589660565325,
+      "predicted_defective": false
+    },
+    {
+      "image": "test/good/047.png",
+      "defective": false,
+      "score": 0.47469966575003497,
+      "predicted_defective": false
+    },
+    {
+      "image": "test/good/048.png",
+      "defective": false,
+      "score": 0.6038173275734691,
+      "predicted_defective": false
+    },
+    {
+      "image": "test/good/049.png",
+      "defective": false,
+      "score": 0.4003067226368423,
+      "predicted_defective": false
+    },
+    {
+      "image": "test/good/050.png",
+      "defective": false,
+      "score": 0.5431532740743124,
+      "predicted_defective": false
+    },
+    {
+      "image": "test/good/051.png",
+      "defective": false,
+      "score": 0.9564828104470535,
+      "predicted_defective": true
+    },
+    {
+      "image": "test/good/052.png",
+      "defective": false,
+      "score": 0.5721149415900247,
+      "predicted_defective": false
+    },
+    {
+      "image": "test/good/053.png",
+      "defective": false,
+      "score": 0.5080240773715587,
+      "predicted_defective": false
+    },
+    {
+      "image": "test/good/054.png",
+      "defective": false,
+      "score": 0.53486384264483,
+      "predicted_defective": false
+    },
+    {
+      "image": "test/good/055.png",
+      "defective": false,
+      "score": 0.632754364180775,
+      "predicted_defective": false
+    },
+    {
+      "image": "test/good/056.png",
+      "defective": false,
+      "score": 0.6879394980980376,
+      "predicted_defective": false
+    },
+    {
+      "image": "test/good/057.png",
+      "defective": false,
+      "score": 0.7544316200907084,
+      "predicted_defective": false
+    },
+    {
+      "image": "test/good/058.png",
+      "defective": false,
+      "score": 0.7884645693771941,
+      "predicted_defective": false
+    },
+    {
+      "image": "test/good/059.png",
+      "defective": false,
+      "score": 0.40225609926593564,
+      "predicted_defective": false
+    },
+    {
+      "image": "test/good/060.png",
+      "defective": false,
+      "score": 0.6296912958307295,
+      "predicted_defective": false
+    },
+    {
+      "image": "test/good/061.png",
+      "defective": false,
+      "score": 0.5561431740499354,
+      "predicted_defective": false
+    },
+    {
+      "image": "test/good/062.png",
+      "defective": false,
+      "score": 0.4773254588519563,
+      "predicted_defective": false
+    },
+    {
+      "image": "test/good/063.png",
+      "defective": false,
+      "score": 1.1195904791020235,
+      "predicted_defective": true
+    },
+    {
+      "image": "test/defect/000.png",
+      "defective": true,
+      "score": 13.91855648975185,
+      "predicted_defective": true
+    },
+    {
+      "image": "test/defect/001.png",
+      "defective": true,
+      "score": 12.739028035865553,
+      "predicted_defective": true
+    },
+    {
+      "image": "test/defect/002.png",
+      "defective": true,
+      "score": 9.997284834965013,
+      "predicted_defective": true
+    },
+    {
+      "image": "test/defect/003.png",
+      "defective": true,
+      "score": 12.148325331614,
+      "predicted_defective": true
+    },
+    {
+      "image": "test/defect/004.png",
+      "defective": true,
+      "score": 12.071370733111461,
+      "predicted_defective": true
+    },
+    {
+      "image": "test/defect/005.png",
+      "defective": true,
+      "score": 10.330971930767893,
+      "predicted_defective": true
+    },
+    {
+      "image": "test/defect/006.png",
+      "defective": true,
+      "score": 9.58344386116411,
+      "predicted_defective": true
+    },
+    {
+      "image": "test/defect/007.png",
+      "defective": true,
+      "score": 12.6216394059259,
+      "predicted_defective": true
+    },
+    {
+      "image": "test/defect/008.png",
+      "defective": true,
+      "score": 9.643656012873013,
+      "predicted_defective": true
+    },
+    {
+      "image": "test/defect/009.png",
+      "defective": true,
+      "score": 11.380785213520912,
+      "predicted_defective": true
+    },
+    {
+      "image": "test/defect/010.png",
+      "defective": true,
+      "score": 10.975171821338538,
+      "predicted_defective": true
+    },
+    {
+      "image": "test/defect/011.png",
+      "defective": true,
+      "score": 12.668494061362967,
+      "predicted_defective": true
+    },
+    {
+      "image": "test/defect/012.png",
+      "defective": true,
+      "score": 8.084999899996367,
+      "predicted_defective": true
+    },
+    {
+      "image": "test/defect/013.png",
+      "defective": true,
+      "score": 12.678796566158862,
+      "predicted_defective": true
+    },
+    {
+      "image": "test/defect/014.png",
+      "defective": true,
+      "score": 10.610584403369003,
+      "predicted_defective": true
+    },
+    {
+      "image": "test/defect/015.png",
+      "defective": true,
+      "score": 13.453825444472812,
+      "predicted_defective": true
+    },
+    {
+      "image": "test/defect/016.png",
+      "defective": true,
+      "score": 11.634878821768702,
+      "predicted_defective": true
+    },
+    {
+      "image": "test/defect/017.png",
+      "defective": true,
+      "score": 13.08872907886489,
+      "predicted_defective": true
+    },
+    {
+      "image": "test/defect/018.png",
+      "defective": true,
+      "score": 9.578579704097564,
+      "predicted_defective": true
+    },
+    {
+      "image": "test/defect/019.png",
+      "defective": true,
+      "score": 11.399614036004111,
+      "predicted_defective": true
+    },
+    {
+      "image": "test/defect/020.png",
+      "defective": true,
+      "score": 14.067573997593412,
+      "predicted_defective": true
+    },
+    {
+      "image": "test/defect/021.png",
+      "defective": true,
+      "score": 14.113439549311074,
+      "predicted_defective": true
+    },
+    {
+      "image": "test/defect/022.png",
+      "defective": true,
+      "score": 13.102605270196717,
+      "predicted_defective": true
+    },
+    {
+      "image": "test/defect/023.png",
+      "defective": true,
+      "score": 14.273666505739513,
+      "predicted_defective": true
+    },
+    {
+      "image": "test/defect/024.png",
+      "defective": true,
+      "score": 10.152866982913784,
+      "predicted_defective": true
+    },
+    {
+      "image": "test/defect/025.png",
+      "defective": true,
+      "score": 10.60777313366776,
+      "predicted_defective": true
+    },
+    {
+      "image": "test/defect/026.png",
+      "defective": true,
+      "score": 12.149385217177002,
+      "predicted_defective": true
+    },
+    {
+      "image": "test/defect/027.png",
+      "defective": true,
+      "score": 11.468266138564896,
+      "predicted_defective": true
+    },
+    {
+      "image": "test/defect/028.png",
+      "defective": true,
+      "score": 13.210125119293021,
+      "predicted_defective": true
+    },
+    {
+      "image": "test/defect/029.png",
+      "defective": true,
+      "score": 13.6198613643257,
+      "predicted_defective": true
+    },
+    {
+      "image": "test/defect/030.png",
+      "defective": true,
+      "score": 11.943722671068848,
+      "predicted_defective": true
+    },
+    {
+      "image": "test/defect/031.png",
+      "defective": true,
+      "score": 13.622884396115618,
+      "predicted_defective": true
+    },
+    {
+      "image": "test/defect/032.png",
+      "defective": true,
+      "score": 10.714664361021047,
+      "predicted_defective": true
+    },
+    {
+      "image": "test/defect/033.png",
+      "defective": true,
+      "score": 11.221409519040172,
+      "predicted_defective": true
+    },
+    {
+      "image": "test/defect/034.png",
+      "defective": true,
+      "score": 13.274472148343959,
+      "predicted_defective": true
+    },
+    {
+      "image": "test/defect/035.png",
+      "defective": true,
+      "score": 11.187450166986206,
+      "predicted_defective": true
+    },
+    {
+      "image": "test/defect/036.png",
+      "defective": true,
+      "score": 10.464200306241175,
+      "predicted_defective": true
+    },
+    {
+      "image": "test/defect/037.png",
+      "defective": true,
+      "score": 13.672651422585025,
+      "predicted_defective": true
+    },
+    {
+      "image": "test/defect/038.png",
+      "defective": true,
+      "score": 11.988171138085825,
+      "predicted_defective": true
+    },
+    {
+      "image": "test/defect/039.png",
+      "defective": true,
+      "score": 11.482539127494706,
+      "predicted_defective": true
+    },
+    {
+      "image": "test/defect/040.png",
+      "defective": true,
+      "score": 10.230000534173454,
+      "predicted_defective": true
+    },
+    {
+      "image": "test/defect/041.png",
+      "defective": true,
+      "score": 10.926011815135931,
+      "predicted_defective": true
+    },
+    {
+      "image": "test/defect/042.png",
+      "defective": true,
+      "score": 13.559891555336069,
+      "predicted_defective": true
+    },
+    {
+      "image": "test/defect/043.png",
+      "defective": true,
+      "score": 9.00750659257929,
+      "predicted_defective": true
+    },
+    {
+      "image": "test/defect/044.png",
+      "defective": true,
+      "score": 13.181157857809328,
+      "predicted_defective": true
+    },
+    {
+      "image": "test/defect/045.png",
+      "defective": true,
+      "score": 13.146041173525115,
+      "predicted_defective": true
+    },
+    {
+      "image": "test/defect/046.png",
+      "defective": true,
+      "score": 9.200072405020919,
+      "predicted_defective": true
+    },
+    {
+      "image": "test/defect/047.png",
+      "defective": true,
+      "score": 10.94064118260009,
+      "predicted_defective": true
+    },
+    {
+      "image": "test/defect/048.png",
+      "defective": true,
+      "score": 13.716284297661387,
+      "predicted_defective": true
+    },
+    {
+      "image": "test/defect/049.png",
+      "defective": true,
+      "score": 10.123701913533171,
+      "predicted_defective": true
+    },
+    {
+      "image": "test/defect/050.png",
+      "defective": true,
+      "score": 10.724080035702784,
+      "predicted_defective": true
+    },
+    {
+      "image": "test/defect/051.png",
+      "defective": true,
+      "score": 11.578815189905887,
+      "predicted_defective": true
+    },
+    {
+      "image": "test/defect/052.png",
+      "defective": true,
+      "score": 11.622743159342964,
+      "predicted_defective": true
+    },
+    {
+      "image": "test/defect/053.png",
+      "defective": true,
+      "score": 11.257463254804165,
+      "predicted_defective": true
+    },
+    {
+      "image": "test/defect/054.png",
+      "defective": true,
+      "score": 12.888963914416063,
+      "predicted_defective": true
+    },
+    {
+      "image": "test/defect/055.png",
+      "defective": true,
+      "score": 12.275036174689395,
+      "predicted_defective": true
+    },
+    {
+      "image": "test/defect/056.png",
+      "defective": true,
+      "score": 13.789209058145563,
+      "predicted_defective": true
+    },
+    {
+      "image": "test/defect/057.png",
+      "defective": true,
+      "score": 13.029872213821427,
+      "predicted_defective": true
+    },
+    {
+      "image": "test/defect/058.png",
+      "defective": true,
+      "score": 11.134543698000595,
+      "predicted_defective": true
+    },
+    {
+      "image": "test/defect/059.png",
+      "defective": true,
+      "score": 8.268438202094073,
+      "predicted_defective": true
+    },
+    {
+      "image": "test/defect/060.png",
+      "defective": true,
+      "score": 13.715615380051943,
+      "predicted_defective": true
+    },
+    {
+      "image": "test/defect/061.png",
+      "defective": true,
+      "score": 11.49747333031894,
+      "predicted_defective": true
+    },
+    {
+      "image": "test/defect/062.png",
+      "defective": true,
+      "score": 14.360180784426241,
+      "predicted_defective": true
+    },
+    {
+      "image": "test/defect/063.png",
+      "defective": true,
+      "score": 13.103298412716505,
+      "predicted_defective": true
+    }
+  ],
+  "dataset": {
+    "kind": "original synthetic textures",
+    "seed": 42,
+    "license": "MIT",
+    "description": "Procedural woven grayscale textures; bright/dark scratches and spots. No real industrial images."
+  }
+}
